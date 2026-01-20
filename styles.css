@@ -10,8 +10,8 @@ body, html {
 }
 header{    
     display: block;
-    height: 25vh;    
-    background: linear-gradient(180deg, rgb(220, 153, 231), rgb(215, 43, 241));
+    height: 31vh;    
+    background: #282828;
 }
 .apresentação{
     display: flex;
@@ -21,7 +21,7 @@ header{
     align-items: center;    
 }
 h2, p, h3{
-    color: rgb(245, 235, 104);
+    color: #BFA16A;
 }
 .primeira{
     display: block;    
@@ -88,7 +88,7 @@ h2, p, h3{
     justify-content: right;
 }      
 .corpo{
-    background-color:rgb(215, 43, 241);
+    background-color:#FAF9F6;
     width: 100vw;
     height: 100vh;
 }
@@ -99,7 +99,7 @@ h2, p, h3{
     flex-basis: 0;
     flex-grow: 1;
     padding: 15px;
-    border-top: 1px solid rgb(245, 235, 104);
+    border-top: 1px solid #BFA16A;
 }
 .lista1{
     text-align: center;
@@ -108,7 +108,7 @@ h2, p, h3{
     flex-basis: 0;
     flex-grow: 1;
     padding: 15px;
-    border-top: 1px solid rgb(245, 235, 104);
+    border-top: 1px solid #BFA16A;
     list-style: none;
 }
 .il{
@@ -119,7 +119,7 @@ h2, p, h3{
 }
 a{
     text-decoration: none;
-    color: rgb(245, 235, 104);
+    color: #BFA16A;
 }
 .logo{
     max-width: fit-content;
