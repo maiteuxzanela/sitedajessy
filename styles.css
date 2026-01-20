@@ -34,7 +34,7 @@ h2, p, h3{
     flex: wrap;
     flex-direction: row;
 }
-.cont{
+.esq{
     text-align: left !important;
     display: block !important;
     flex-basis: 0;
@@ -42,7 +42,7 @@ h2, p, h3{
     max-width: 100%;
     padding: 15px;
 }
-.desc{
+.cen{
     text-align: center !important;
     display: block !important;
     max-width: 100%;
@@ -50,7 +50,7 @@ h2, p, h3{
     flex-grow: 1;
     padding: 15px;
 }    
-.extra{
+.dir{
     text-align: right !important;
     display: block !important;
     max-width: 100%;
@@ -58,6 +58,35 @@ h2, p, h3{
     flex-grow: 1;
     padding: 15px;
 }
+.esq2{
+    text-align: left !important;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 15px;
+    align-items: center;
+    justify-content: left;
+}
+.cen{
+    text-align: center !important;
+    display: block !important;
+    max-width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 15px;
+    align-items: center;
+}
+.dir2{
+    text-align: right !important;
+    display: flex;
+    max-width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 15px;
+    align-items: center;
+    justify-content: right;
+}      
 .corpo{
     background-color:rgb(215, 43, 241);
     width: 100vw;
@@ -87,4 +116,11 @@ h2, p, h3{
     display: inline-block;
     list-style: none;    
     padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(245, 235, 104);
+}
+.logo{
+    max-width: fit-content;
 }
