@@ -72,6 +72,16 @@ h2, p, h3{
     align-items: center;
     justify-content: left;
 }
+@media (max-widht: 768px){
+    .esq2{
+        display: none:
+    }
+    .dir2{
+        display: none;
+    }
+    .lista1{
+        display:none
+}
 .cen2{
     text-align: center !important;
     display: block !important;
@@ -90,7 +100,8 @@ h2, p, h3{
     padding: 15px;
     align-items: center;
     justify-content: right;
-}      
+}
+
 .corpo{
     background: linear-gradient(to bottom, #ffc429, #fe4d8a);
     width: 100vw;
@@ -134,3 +145,4 @@ a{
     height: auto;
     padding: 70px;
 }
+
