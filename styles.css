@@ -57,7 +57,7 @@ h2, p, h3{
 }    
 .dir{
     text-align: right !important;
-    display: block !important;
+    display: block;
     max-width: 100%;
     flex-basis: 0;
     flex-grow: 1;
@@ -149,6 +149,7 @@ a{
     height: auto;
     padding: 70px;
 }
+
 
 
 
