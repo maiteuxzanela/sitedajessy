@@ -11,7 +11,7 @@ body, html {
 header{    
     display: block;
     height: 31vh;    
-    background: #282828;
+    background: #ffffff;
 }
 .apresentação{
     display: flex;
@@ -21,7 +21,7 @@ header{
     align-items: center;    
 }
 h2, p, h3{
-    color: #BFA16A;
+    color: #13bac2;
 }
 .primeira{
     display: block;    
@@ -68,13 +68,13 @@ h2, p, h3{
     align-items: center;
     justify-content: left;
 }
-.cen{
+.cen2{
     text-align: center !important;
     display: block !important;
     max-width: 100%;
     flex-basis: 0;
     flex-grow: 1;
-    padding: 15px;
+    padding: 0px;
     align-items: center;
 }
 .dir2{
@@ -88,7 +88,7 @@ h2, p, h3{
     justify-content: right;
 }      
 .corpo{
-    background-color:#FAF9F6;
+    background: linear-gradient(to bottom, #ffc429, #fe4d8a);
     width: 100vw;
     height: 100vh;
 }
@@ -99,7 +99,7 @@ h2, p, h3{
     flex-basis: 0;
     flex-grow: 1;
     padding: 15px;
-    border-top: 1px solid #BFA16A;
+    border-top: 1px solid #13bac2;
 }
 .lista1{
     text-align: center;
@@ -108,7 +108,7 @@ h2, p, h3{
     flex-basis: 0;
     flex-grow: 1;
     padding: 15px;
-    border-top: 1px solid #BFA16A;
+    border-top: 1px solid #13bac2;
     list-style: none;
 }
 .il{
@@ -119,8 +119,9 @@ h2, p, h3{
 }
 a{
     text-decoration: none;
-    color: #BFA16A;
+    color: #13bac2;
 }
 .logo{
     max-width: fit-content;
+    max-height: fit-content;
 }
