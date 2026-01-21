@@ -72,16 +72,6 @@ h2, p, h3{
     align-items: center;
     justify-content: left;
 }
-@media (max-widht: 768px){
-    .esq2{
-        display: none:
-    }
-    .dir2{
-        display: none;
-    }
-    .lista1{
-        display:none
-}
 .cen2{
     text-align: center !important;
     display: block !important;
@@ -145,4 +135,5 @@ a{
     height: auto;
     padding: 70px;
 }
+
 
