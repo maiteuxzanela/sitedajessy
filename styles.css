@@ -27,7 +27,7 @@ h2, p, h3{
     display: block;    
     justify-content: center;
     width: 100%;
-    height: 200px;  
+    height: 100%;  
 }
 .naosei{
     display: flex;
