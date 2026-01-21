@@ -98,9 +98,9 @@ h2, p, h3{
     .dir2{
         display: none;
     }
-    .lista1{
-        display:none;
-    }
+    .ultima-barra-de-texto{
+        display: none;
+    }   
 }
 .corpo{
     background: linear-gradient(to bottom, #ffc429, #fe4d8a);
@@ -145,6 +145,7 @@ a{
     height: auto;
     padding: 70px;
 }
+
 
 
 
