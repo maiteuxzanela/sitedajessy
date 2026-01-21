@@ -22,6 +22,7 @@ header{
     padding-top: 5%;
     align-items: center; 
     text-align: center;
+    height: inherit;
 }
 h2, p, h3{
     color: #13bac2;
@@ -109,7 +110,7 @@ h2, p, h3{
 .corpo{
     background: linear-gradient(to bottom, #ffc429, #fe4d8a);
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
 }
 .ultimaLinhaHeader{
     text-align: center !important;
@@ -147,13 +148,17 @@ a{
 .praia{
     width: 650px;
     height: auto;
-    padding: 70px;
-    position: relative;
-    top: 215px;
+    border: 1px solid #13bac2;
+    border-radius: 10 px;
 }
 .texto{
     position: relative;
     top: 125px;
+}
+.pad{
+    position: relative;
+    top: 215px;
+    padding: 70px;
 }
 
 
