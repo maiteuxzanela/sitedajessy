@@ -101,7 +101,10 @@ h2, p, h3{
     }
     .ultima-barra-de-texto{
         display: none;
-    }   
+    }
+    .dir{
+        display: none;
+    }
 }
 .corpo{
     background: linear-gradient(to bottom, #ffc429, #fe4d8a);
@@ -146,6 +149,7 @@ a{
     height: auto;
     padding: 70px;
 }
+
 
 
 
