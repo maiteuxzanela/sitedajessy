@@ -148,7 +148,15 @@ a{
     width: 650px;
     height: auto;
     padding: 70px;
+    position: relative;
+    top: 215px;
 }
+.texto{
+    position: relative;
+    top: 125px;
+}
+
+
 
 
 
