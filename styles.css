@@ -20,7 +20,8 @@ header{
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 5%;
-    align-items: center;    
+    align-items: center; 
+    text-align: center;
 }
 h2, p, h3{
     color: #13bac2;
@@ -145,6 +146,7 @@ a{
     height: auto;
     padding: 70px;
 }
+
 
 
 
