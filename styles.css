@@ -42,7 +42,7 @@ h2, p, h3{
 }
 .esq{
     text-align: left !important;
-    display: block !important;
+    display: block;
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
@@ -151,6 +151,7 @@ a{
     top: 215px;
     padding: 70px;
 }
+
 
 
 
