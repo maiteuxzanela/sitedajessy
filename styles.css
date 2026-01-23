@@ -147,7 +147,8 @@ a{
 }
 .texto{
     position: relative;
-    padding: 125px;    
+    padding-top: 80px;
+    padding-bottom: 95px;
 }
 .padhorizontal{
     position: relative;  
@@ -183,3 +184,4 @@ a{
 .sand{
     color: #f9c773 !important;
 }
+
