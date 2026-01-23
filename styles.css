@@ -8,6 +8,7 @@ body, html {
     height: 100%;
     overflow-x: hidden; /* remove scroll horizontal se necessário */
     color-scheme: light only;
+    background: linear-gradient(to bottom, #ffc429, #fe4d8a);
 }
 header{    
     display: block;    
@@ -18,10 +19,12 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 5%;
+    padding-top: 3%;
     align-items: center; 
     text-align: center;
     height: inherit;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 h2, p, h3{
     color: #13bac2;
@@ -103,11 +106,6 @@ h2, p, h3{
         filter: none !important; /* Remove filtros automáticos */
     }
 }
-.corpo{
-    background: linear-gradient(to bottom, #ffc429, #fe4d8a);
-    width: 100vw;
-    height: 150vh;
-}
 .ultimaLinhaHeader{
     text-align: center !important;
     display: block !important;
@@ -142,7 +140,7 @@ a{
     max-height: fit-content;
 }
 .praia{
-    width: 650px;
+    width: 100%;
     height: auto;
     border: 1px solid #13bac2;
     border-radius: 10px;    
@@ -151,10 +149,33 @@ a{
     position: relative;
     top: 125px;    
 }
-.pad{
-    position: relative;
-    top: 215px;
-    padding: 70px;    
-    width: 1000px;
+.padhorizontal{
+    position: relative;  
+    width: 100%;
+    height: auto;
+}
+.padvertical{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;  
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+}  
+.fotobloco{    
+    max-width: 50%;
+    height: auto;
+    padding-right: 15px;    
+}
+.praiavertical{
+    display: block;
+    position: relative;  
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    border: 1px solid #13bac2;
+}
+.fotobloco1{    
+    max-width: 50%;
     height: auto;
 }
