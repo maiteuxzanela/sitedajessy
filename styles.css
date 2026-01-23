@@ -147,7 +147,7 @@ a{
 }
 .texto{
     position: relative;
-    top: 125px;    
+    padding: 125px;    
 }
 .padhorizontal{
     position: relative;  
@@ -178,4 +178,5 @@ a{
 .fotobloco1{    
     max-width: 50%;
     height: auto;
+
 }
