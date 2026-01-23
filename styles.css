@@ -121,7 +121,6 @@ h2, p, h3{
     max-width: 100%;
     flex-basis: 0;
     flex-grow: 1;
-    padding: 15px;
     list-style: none;
 }
 .il{
@@ -178,8 +177,9 @@ a{
     object-fit: cover;
 }
 .fotobloco1{    
-    max-width: 50%;
-    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 300px;
 
 }
 .sand{
@@ -190,5 +190,6 @@ a{
     justify-content: center;
     border-top: 1px solid #13bac2;
 }
+
 
 
