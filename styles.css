@@ -122,7 +122,6 @@ h2, p, h3{
     flex-basis: 0;
     flex-grow: 1;
     padding: 15px;
-    border-top: 1px solid #13bac2;
     list-style: none;
 }
 .il{
@@ -185,6 +184,11 @@ a{
 }
 .sand{
     color: #f9c773 !important;
+}
+.ultimabarra{
+    max-height: 45px;
+    justify-content: center;
+    border-top: 1px solid #13bac2;
 }
 
 
