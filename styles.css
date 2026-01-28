@@ -173,14 +173,18 @@ a{
 .fotobloco{ 
     margin-bottom: 15px;    
     flex: 0 0 23%;
+    overflow: hidden;
+    border-radius: 10%;
+    border: 1px solid #13bac2;
+    height: 44vh;
 }
 .praiavertical{
     display: block;
     position: relative;  
     width: 100%;
-    height: auto;
+    height: inherit;
     border-radius: 10%;
-    border: 1px solid #13bac2;
+    object-fit: cover;
 }
 .sand{
     color: #f9c773 !important;
