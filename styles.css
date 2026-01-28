@@ -97,7 +97,14 @@ h2, p, h3{
 }
 @media (max-width: 768px){
     .d-none{
-        display: none;
+        display: none;        
+    }
+    .fotomobile{
+        flex: 0 0 50%;
+        max-width: 50%;        
+    }
+    .fotobloco{   
+        flex: 0 0 48% !important;      
     }
 }
 @media (prefers-color-scheme: dark) {
@@ -121,6 +128,8 @@ h2, p, h3{
     max-width: 100%;
     flex-basis: 0;
     flex-grow: 1;
+    padding: 15px;
+    border-top: 1px solid #13bac2;
     list-style: none;
 }
 .il{
@@ -144,9 +153,9 @@ a{
     border-radius: 10px;    
 }
 .texto{
-    position: relative;
-    padding-top: 80px;
-    padding-bottom: 95px;
+    position: relative;  
+    padding-top: 35px;  
+    padding-bottom: 65px;   
 }
 .padhorizontal{
     position: relative;  
@@ -155,41 +164,27 @@ a{
 }
 .padvertical{
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: space-between;  
-    width: 100%;
+    width: inherit;
     height: auto;
     padding-top: 15px;
 }  
-.fotobloco{    
-    max-width: 100%;
-    max-height: 300px;    
-    padding-right: 15px;
-    overflow: hidden;
+.fotobloco{ 
+    margin-bottom: 15px;    
+    flex: 0 0 23%;
 }
 .praiavertical{
     display: block;
     position: relative;  
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 10%;
     border: 1px solid #13bac2;
-    object-fit: cover;
-}
-.fotobloco1{    
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 300px;
-
 }
 .sand{
     color: #f9c773 !important;
 }
-.ultimabarra{
-    max-height: 45px;
-    justify-content: center;
-    border-top: 1px solid #13bac2;
+section{
+    display: block;
 }
-
-
-
